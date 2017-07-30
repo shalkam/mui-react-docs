@@ -1,0 +1,51 @@
+.banner {
+  background-image: url('../../../assets/images/banner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .logo {
+    margin: 235px 0 20px;
+    height: 100px;
+  }
+
+  .content {
+    top: 55%;
+    left: 0;
+    right: 0;
+    padding: 0 15px 50px;
+
+    .alert {
+      margin: 50px auto 10px;
+      display: block;
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+
+  @media (max-width: 1199px) {
+    .logo {
+      height: 80px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .logo {
+      height: 60px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .logo {
+      margin-top: 260px;
+      height: 40px;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .logo {
+      margin-top: 290px;
+      height: 30px;
+    }
+  }
+}

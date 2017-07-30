@@ -1,0 +1,79 @@
+.footer {
+  padding: 30px;
+  background-color: #333333;
+  color: white;
+
+  .upper {
+    input {
+      width: 70%;
+      padding: 4px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #999999;
+      font-size: 18px;
+      color: #999999;
+      outline: none;
+    }
+
+    button {
+      margin: 30px auto;
+      font-family: 'National Medium';
+      font-size: 20px;
+      color: white;
+      display: block;
+    }
+
+    p {
+      font-size: 30px;
+    }
+  }
+
+  .lower {
+    .nav-link {
+      display: inline-block;
+
+      img {
+        width: 70%;
+
+        @media (max-width: 1199px) and (min-width: 768px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .upper {
+      input {
+        font-size: 12px;
+      }
+
+      button {
+        font-size: 14px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      div:nth-child(2) {
+        margin-top: 30px;
+      }
+    }
+
+    .nav-link {
+      display: block !important;
+      text-align: center;
+    }
+  }
+
+  span {
+    font-family: 'National Light' !important;
+    font-size: 20px;
+
+    &.medium {
+      font-family: 'National Medium';
+      font-size: 24px;
+    }
+  }
+}

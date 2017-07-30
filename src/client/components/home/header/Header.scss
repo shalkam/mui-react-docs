@@ -1,0 +1,18 @@
+.nav-container {
+  position: absolute !important;
+  left: 0;
+  right: 0;
+
+  .navbar {
+    &.navbar-light {
+      .navbar-nav {
+        .nav-link {
+          padding: 0.5em 1.5em;
+          font-family: 'National Semibold';
+          font-size: 20px;
+          color: #333333;
+        }
+      }
+    }
+  }
+}
